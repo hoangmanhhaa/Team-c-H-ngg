@@ -1,0 +1,13 @@
+main:
+  - title: "Về chúng tôi"
+    url: /
+  - title: "Hướng nghiên cứu"
+    url: /research/
+  - title: "Công bố"
+    url: /publications/
+  - title: "Dữ liệu & Phân tích"
+    url: /data/
+  - title: "Thành viên"
+    url: /team/
+  - title: "Liên hệ"
+    url: /contact/
