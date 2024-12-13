@@ -1,0 +1,74 @@
+<aside class="sidebar">
+  <div class="logo-section">
+    <!-- Logo của lab -->
+    <img src="{{ site.baseurl }}/assets/images/lab-logo.png" alt="Lab Logo" class="lab-logo">
+    <h3 class="lab-subtitle">Nghiên cứu Dược liệu Tự nhiên</h3>
+  </div>
+
+  <div class="contact-info">
+    <div class="contact-item">
+      <span class="icon">🏛️</span>
+      <span>Đại học Y Dược Hà Nội</span>
+    </div>
+    <div class="contact-item">
+      <span class="icon">✉️</span>
+      <a href="mailto:contact@example.com">Email</a>
+    </div>
+    <div class="contact-item">
+      <span class="icon">🔗</span>
+      <a href="{{ site.url }}">Website</a>
+    </div>
+  </div>
+</aside>
+
+<style>
+  .sidebar {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .logo-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .lab-logo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .lab-subtitle {
+    color: #666;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .contact-info {
+    margin-top: 2rem;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-item a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .contact-item a:hover {
+    color: #2E7D32;
+  }
+
+  .icon {
+    width: 24px;
+    text-align: center;
+  }
+</style>
