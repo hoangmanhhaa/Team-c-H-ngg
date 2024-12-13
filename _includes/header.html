@@ -1,0 +1,63 @@
+<header class="site-header">
+  <div class="wrapper">
+    <!-- Logo trường ở góc trên -->
+    <div class="university-logo">
+      <img src="{{ site.baseurl }}/assets/images/university-logo.png" alt="University Logo">
+    </div>
+
+    <!-- Navigation menu -->
+    <nav class="site-nav">
+      <div class="nav-links">
+        <a href="{{ site.baseurl }}/">Trang chủ</a>
+        <a href="{{ site.baseurl }}/research">Nghiên cứu</a>
+        <a href="{{ site.baseurl }}/publications">Công bố</a>
+        <a href="{{ site.baseurl }}/team">Nhóm nghiên cứu</a>
+        <a href="{{ site.baseurl }}/contact">Liên hệ</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 1rem 0;
+  }
+
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .university-logo {
+    margin-bottom: 1rem;
+  }
+
+  .university-logo img {
+    height: 30px;
+  }
+
+  .site-nav {
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #2E7D32;
+  }
+</style>
