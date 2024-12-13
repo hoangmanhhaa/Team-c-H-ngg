@@ -1,7 +1,7 @@
 title: Lab nghiên cứu Dược liệu
-description: Team nghiên cứu dược liệu Đại học Dược Hà Nội
-url: "https://your-domain.com"
-baseurl: ""
+description: website cuar Team nghiên cứu dược liệu, Đại học Dược Hà Nội
+url: "https://hoangmanhhaa.github.io"
+baseurl: "/Team-c-H-ngg"
 
 # Build settings
 markdown: kramdown
