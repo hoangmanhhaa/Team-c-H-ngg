@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-    <header>
-        <!-- Logo và navigation -->
+    <header class="site-header">
+        <img src="{{ '/assets/images/university-logo.png' | relative_url }}" alt="University Logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{{ site.baseurl }}/">Trang chủ</a></li>
+                <li><a href="{{ site.baseurl }}/research">Nghiên cứu</a></li>
+                <li><a href="{{ site.baseurl }}/publications">Công bố</a></li>
+                <li><a href="{{ site.baseurl }}/team">Nhóm nghiên cứu</a></li>
+                <li><a href="{{ site.baseurl }}/contact">Liên hệ</a></li>
+            </ul>
+        </nav>
     </header>
     
     <div class="main-content">
@@ -23,7 +32,7 @@
             </div>
         </aside>
 
-        <!-- Content chính - Đây là nơi nội dung từ index.md sẽ được render -->
+        <!-- Content chính -->
         <div class="content">
             {{ content }}
         </div>
