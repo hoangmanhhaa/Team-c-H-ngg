@@ -7,17 +7,30 @@
     <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-    {% include header.html %}
+    <header>
+        <!-- Logo và navigation -->
+    </header>
     
-    <main class="main-content">
+    <div class="main-content">
+        <!-- Sidebar bên trái -->
         <aside class="sidebar">
-            {% include sidebar.html %}
+            <img src="{{ '/assets/images/lab-logo.png' | relative_url }}" alt="Lab Logo" class="lab-logo">
+            <h3>Nghiên cứu Dược liệu Tự nhiên</h3>
+            <div class="contact-info">
+                <div><span>🏛️</span> Đại học Y Dược Hà Nội</div>
+                <div><span>✉️</span> Email</div>
+                <div><span>🔗</span> Website</div>
+            </div>
         </aside>
+
+        <!-- Content chính - Đây là nơi nội dung từ index.md sẽ được render -->
         <div class="content">
             {{ content }}
         </div>
-    </main>
+    </div>
 
-    {% include footer.html %}
+    <footer>
+        <p>© 2024 Phòng nghiên cứu Dược liệu. All rights reserved.</p>
+    </footer>
 </body>
 </html>
