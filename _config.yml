@@ -1,5 +1,5 @@
 title: Lab nghiên cứu Dược liệu
-description: website cuar Team nghiên cứu dược liệu, Đại học Dược Hà Nội
+description: website của Team nghiên cứu dược liệu, Đại học Dược Hà Nội
 url: "https://hoangmanhhaa.github.io"
 baseurl: "/Team-c-H-ngg"
 
@@ -8,9 +8,20 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 # Collections
 collections:
+  research:
+    output: true
   publications:
     output: true
-    permalink: /:collection/:name
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
