@@ -20,6 +20,8 @@ exclude:
 
 # Collections
 collections:
+  pages:
+    output: true
   research:
     output: true
   publications:
