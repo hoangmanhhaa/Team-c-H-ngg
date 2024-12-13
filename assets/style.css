@@ -8,9 +8,9 @@ body {
 }
 
 /* Header & Navigation */
-.site-header {
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+.site-header img {
+  max-width: 200px;
+  height: auto;
 }
 
 .nav-links {
