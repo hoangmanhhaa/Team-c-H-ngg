@@ -5,23 +5,27 @@ baseurl: "/Team-c-H-ngg"
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/primer@v0.2.0
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Exclude files
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-  
+
 # Collections
 collections:
   research:
     output: true
   publications:
     output: true
+
+# Defaults
 defaults:
   - scope:
       path: ""
